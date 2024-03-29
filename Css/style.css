@@ -66,12 +66,12 @@ a{
     font-size: 16px;
     font-weight: 400;
 }
-.section_menu #m1 #d div img{
-    width: 30px;
-    height: 30px;
+.section_menu #m1 #d div img {
+    width: 20px;
+    height: 20px;
     border-radius: 20px;
-    padding: 2px;
-    margin-left: -6px;
+    padding: 1px;
+    
     border: 1px solid white;
 }
 .icone1{
@@ -105,12 +105,12 @@ a{
     display: flex;
 }
 #header img{
-    width: 150px;
-    height: 150px;
+    width: 180px;
+    height: 180px;
     border-radius: 100px;
     margin-left: 80px;
     margin-right: 50px;
-    margin-top: -15px;
+    margin-bottom: 15px;
 }
 #d1{
     display: flex;
@@ -187,13 +187,13 @@ a{
     justify-content: center;
     border-top: 1px solid #141414;
 }
-.actev::after{
-    content:"";
+.actev::after {
+    content: "";
     background-color: white;
     width: 80px;
     height: 2px;
     position: absolute;
-    top: -16px;
+    bottom: 32px;
 }
 
 #colon2 div{
